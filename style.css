@@ -1,0 +1,134 @@
+/* Universal stayls */
+body {
+    margin: 0;
+    background-color: #272C3D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header stayls */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header form input {
+    margin-right: 30px;
+}
+
+.intro {
+    background-image: url(./images/CSGO.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Section stays */
+section h2 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+section {
+    background-color: black;
+}
+
+.container h4 {
+    color: white;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container p {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Psl {
+    background-color: #272C3D;
+}
+
+.Psl img {
+    width: 500px;
+    height: 250px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    line-height: 30px;
+
+}
+
+ section.xm{
+    background-color: #272C3D;
+}
+
+section.xm h5{
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boxs{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.boxs p{
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boxs img{
+    width: 600px;
+    height: 250px;
+}
+
+/* Footer stayls */
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    padding-top: 70px;
+}
+footer ul{
+display: flex;
+gap: 50px;
+}
